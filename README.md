@@ -6,7 +6,8 @@
 	https://breed.hackpascal.net/  
 	
 * Imx283:  
-	http://pan.baidu.com/s/1skABBfn
+	http://pan.baidu.com/s/1skABBfn  
+	https://wiki.openwrt.org/toh/i2se/duckbill
 
 
 
