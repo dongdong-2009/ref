@@ -11,5 +11,7 @@
 	http://blog.csdn.net/wshini7316/article/details/8623092  
 	http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/i.mx-applications-processors/i.mx28-applications-processors-integrated-power-management-unit-pmu-arm9-core/multimedia-applications-processors-high-performance-low-power-arm9-core:i.MX283?tab=Documentation_Tab
 
+* 启动跟踪Linux Kernel Code:  
+	http://www.jianshu.com/p/c50563d5d999
 
 
