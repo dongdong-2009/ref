@@ -23,7 +23,7 @@
 	1. ./uploadfw.sh v3.3.8_grl_test-0-gff55202_dsi0024/fw.bin  grl_new 格瑞利  
 	2. ./uploadfw.sh  v3.4.0_grl_test_64MRam_8MFlash-0-g2365583_dsi0024/fw.bin  grl  
 
-# generate patch  
+# generate patch   
   1. cd workdir  
   2. quilt new nnn.xxx.patch  
   3. quilt add a.c  
