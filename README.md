@@ -14,4 +14,6 @@
 * 启动跟踪Linux Kernel Code:  
 	http://www.jianshu.com/p/c50563d5d999
 
+* openwrt:  
+	https://wiki.openwrt.org/zh-cn/doc/devel/packages
 
