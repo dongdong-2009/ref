@@ -24,11 +24,11 @@
 	2. ./uploadfw.sh  v3.4.0_grl_test_64MRam_8MFlash-0-g2365583_dsi0024/fw.bin  grl  
 
 # generate patch  
-	1. cd workdir  
+  1. cd workdir  
   2. quilt new nnn.xxx.patch  
-	3. quilt add a.c  
-	4. cp a_old.c .  
-	5. quilt diff  
-	6. quilt refresh  
-	7. cp nnn.xxx.patch patch_dir  
+  3. quilt add a.c  
+  4. cp a_old.c .  
+  5. quilt diff  
+  6. quilt refresh  
+  7. cp nnn.xxx.patch patch_dir 
 
