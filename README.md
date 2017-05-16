@@ -15,8 +15,11 @@
 	http://www.jianshu.com/p/c50563d5d999
 
 * openwrt:  
-	https://wiki.openwrt.org/zh-cn/doc/devel/packages
+	https://wiki.openwrt.org/zh-cn/doc/devel/packages  
 
 
 * qemu:  
 	qemu-system-arm -M versatilepb -m 128M -nographic -s -S -kernel zImage -append "console=ttyAMA0"
+
+
+* OpenWrt CONFIG_KERNEL_DEBUG_LL in .config to enable CONFIG_DEBUG_LL AND EARLY_PRINTK
