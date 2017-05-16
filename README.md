@@ -17,3 +17,6 @@
 * openwrt:  
 	https://wiki.openwrt.org/zh-cn/doc/devel/packages
 
+
+* qemu:  
+	qemu-system-arm -M versatilepb -m 128M -nographic -s -S -kernel zImage -append "console=ttyAMA0"
