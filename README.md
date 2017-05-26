@@ -23,3 +23,34 @@
 
 
 * OpenWrt CONFIG_KERNEL_DEBUG_LL in .config to enable CONFIG_DEBUG_LL AND EARLY_PRINTK
+
+* gdb/gdbserver:  
+	CONFIG_DEBUG=y
+	--- a/gdb/remote.c      2014-07-29 20:37:42.000000000 +0800
+	+++ b/gdb/remote.c      2017-05-26 16:33:03.352806398 +0800
+	@@ -6062,8 +6062,25 @@
+	   buf_len = strlen (rs->buf);
+
+	   /* Further sanity checks, with knowledge of the architecture.  */
+	+#if 0
+	   if (buf_len > 2 * rsa->sizeof_g_packet)
+	     error (_("Remote 'g' packet reply is too long: %s"), rs->buf);
+	+#else
+	+  // if (buf_len > 2 * rsa->sizeof_g_packet)
+	+  //  error (_("Remote 'g' packet reply is too long: %s"), rs->buf);
+	+  if (buf_len > 2 * rsa->sizeof_g_packet) {
+	+    rsa->sizeof_g_packet = buf_len;
+	+    for (i = 0; i < gdbarch_num_regs (gdbarch); i++) {
+	+      if (rsa->regs[i].pnum == -1)
+	+        continue;
+	+      if (rsa->regs[i].offset >= rsa->sizeof_g_packet)
+	+        rsa->regs[i].in_g_packet = 0;
+	+      else
+	+        rsa->regs[i].in_g_packet = 1;
+	+    }
+	+  }
+	+#endif
+	+
+
+	   /* Save the size of the packet sent to us by the target.  It is used
+	      as a heuristic when determining the max size of packets that the
