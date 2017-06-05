@@ -16,6 +16,9 @@
 
 * openwrt:  
 	https://wiki.openwrt.org/zh-cn/doc/devel/packages  
+	http://blog.csdn.net/lichengtongxiazai/article/details/38941913  
+	http://blog.csdn.net/voice_shen/article/details/7441894  
+	http://blog.csdn.net/ooonebook/article/details/53495002
 
 
 * qemu:  
