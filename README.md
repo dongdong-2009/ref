@@ -56,4 +56,6 @@
 	+
 
 	   /* Save the size of the packet sent to us by the target.  It is used
-	      as a heuristic when determining the max size of packets that the
+	      as a heuristic when determining the max size of packets that the  
+* git chandao:  
+	git commit document : 139  
