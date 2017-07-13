@@ -65,5 +65,8 @@
 * wangpanzhijia:  
 	http://www.wangpanzhijia.net/sitemap/tab/share5/p/386.html  
 	
-* https://yq.aliyun.com/articles/8469
+* ssh -R:  
+	https://yq.aliyun.com/articles/8469  
+	ssh -CqTfnN -R  0.0.0.0:7001:IP_SA:22   IP_CA   
+	
 	
