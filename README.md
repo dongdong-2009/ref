@@ -68,5 +68,8 @@
 * ssh -R:  
 	https://yq.aliyun.com/articles/8469  
 	ssh -CqTfnN -R  0.0.0.0:7001:IP_SA:22   IP_CA   
-	
-	
+* ctags list:  
+	以前都用ctrl + ]，为了列出所有其他匹配项还要:ts。今天才发现g]可以直接列出所有匹配项，省得再:ts了  
+	另外，修改.vimrc中，加上  
+	nmap <C-]> g]  
+	即可直接把Ctrl + ]映射到g]  
