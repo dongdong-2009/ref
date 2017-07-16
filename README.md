@@ -78,3 +78,10 @@
 * fltk:  
 	http://www.fltk.org/doc-1.1/  
 	http://www3.telus.net/public/robark/  
+* dropbear:  
+	cd /etc
+	mkdir dropbear
+	cd dropbear
+	/usr/local/bin dropbearkey -t rsa -f dropbear_rsa_host_key
+	/usr/local/bin dropbearkey -t dss -f dropbear_dss_host_key
+	./dropbear -p 22（监听22端口）
