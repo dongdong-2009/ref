@@ -73,3 +73,5 @@
 	另外，修改.vimrc中，加上  
 	nmap <C-]> g]  
 	即可直接把Ctrl + ]映射到g]  
+* fltk:  
+	http://www.fltk.org/doc-1.1/
