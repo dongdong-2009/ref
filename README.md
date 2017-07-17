@@ -75,6 +75,7 @@
 	即可直接把Ctrl + ]映射到g]  
 * TinyCore:  
 	1. unetbootin
+	2. http://www.minilinux.net/node/2355  
 * fltk:  
 	http://www.fltk.org/doc-1.1/  
 	http://www3.telus.net/public/robark/  
