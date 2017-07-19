@@ -88,4 +88,14 @@
 	./dropbear -p 22（监听22端口）  
 * linux 鸟哥:  
 	http://cn.linux.vbird.org/linux_basic/0510osloader.php  
+
+* vim :  
+	set tabstop=2  
+	set softtabstop=2  
+	set shiftwidth=2  
+	set hls  
+	:colorscheme evening  
+	nmap <C-]> g]  
+	set nocompatible  
+	set backspace=indent,eol,start  
 	
