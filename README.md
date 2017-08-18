@@ -98,4 +98,5 @@
 	nmap <C-]> g]  
 	set nocompatible  
 	set backspace=indent,eol,start  
-	
+* pandoc:  
+	pandoc.exe -s XXX.md -o XXX.docx
