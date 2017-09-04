@@ -100,3 +100,6 @@
 	set backspace=indent,eol,start  
 * pandoc:  
 	pandoc.exe -s XXX.md -o XXX.docx
+	
+* valgrand:
+        sudo valgrind --tool=memcheck --leak-check=full --show-reachable=yes ./AmberGwZ3  -n0 -p /dev/ttyACM0
