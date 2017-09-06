@@ -103,3 +103,6 @@
 	
 * valgrand:
         sudo valgrind --tool=memcheck --leak-check=full --show-reachable=yes ./AmberGwZ3  -n0 -p /dev/ttyACM0
+	--read-var-info=yes|no
+	--track-origins=yes 定位错误源
+	--leak-resolution 合并backtraces
