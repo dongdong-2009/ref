@@ -106,3 +106,7 @@
 	--read-var-info=yes|no
 	--track-origins=yes 定位错误源
 	--leak-resolution 合并backtraces
+	
+* amazon:
+   https://www.programmableweb.com/news/how-to-get-started-amazon%E2%80%99s-alexa-skills-kit/how-to/2016/08/02?page=2
+   dlaudience01@gmail.com
