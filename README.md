@@ -110,3 +110,6 @@
 * amazon:
    https://www.programmableweb.com/news/how-to-get-started-amazon%E2%80%99s-alexa-skills-kit/how-to/2016/08/02?page=2
    dlaudience01@gmail.com
+* c++ web:  
+   http://blog.csdn.net/xiaoxiaoyeyaya/article/details/42541419  
+   
