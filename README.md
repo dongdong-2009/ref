@@ -115,5 +115,6 @@
    
 * virtual Box:  
    VBoxManage convertfromraw --format VDI openwrt-x86-generic-combined-ext4.img openwrt-x86-generic-combined-ext4.img.vdi  
-   VBoxmanage modifyhd openwrt-x86-generic-combined-ext4.img.vdi --resize 1000  + GParted
+   VBoxmanage modifyhd openwrt-x86-generic-combined-ext4.img.vdi --resize 1000  + GParted  
+   vboxmanage internalcommands sethduuid modifyhd openwrt-x86-generic-combined-ext4.img.vdi
    
