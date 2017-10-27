@@ -113,3 +113,7 @@
 * c++ web:  
    http://blog.csdn.net/xiaoxiaoyeyaya/article/details/42541419  
    
+* virtual Box:  
+   VBoxManage convertfromraw --format VDI openwrt-x86-generic-combined-ext4.img openwrt-x86-generic-combined-ext4.img.vdi  
+   VBoxmanage modifyhd openwrt-x86-generic-combined-ext4.img.vdi --resize 1000  + GParted
+   
