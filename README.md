@@ -118,3 +118,10 @@
    VBoxmanage modifyhd openwrt-x86-generic-combined-ext4.img.vdi --resize 1000  + GParted  
    vboxmanage internalcommands sethduuid openwrt-x86-generic-combined-ext4.img.vdi
    
+* python flask:  
+#pip install virtualenv
+
+#virtualenv venv
+
+#pip install flask
+   
