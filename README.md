@@ -124,4 +124,20 @@
 #virtualenv venv
 
 #pip install flask
+
+* update gcc/g++  
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt-get install gcc-4.8 g++-4.8
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
+sudo updatedb && sudo ldconfig
+locate gcc | grep -E "/usr/bin/gcc-[0-9]"
+locate g++ | grep -E "/usr/bin/g\+\+-[0-9]"
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.6 20
+sudo update-alternatives --query gcc
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/g++-4.8 50
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/g++-4.6 20
+sudo update-alternatives --query g++
    
