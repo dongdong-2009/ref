@@ -140,4 +140,10 @@ sudo update-alternatives --query gcc
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/g++-4.8 50
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/g++-4.6 20
 sudo update-alternatives --query g++
+
+* centos7 network:  
+nmcli connection show  
+nmcli connection modify enp3s0 connection.autoconnect yes ipv4.method manual ipv4.address 192.168.10.9/24 ipv4.gateway 192.168.10.1 ipv4.dns 8.8.8.8  
+systemctl restart network  
+nmcli connection show enp0s3  
    
