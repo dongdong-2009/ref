@@ -146,4 +146,7 @@ nmcli connection show
 nmcli connection modify enp3s0 connection.autoconnect yes ipv4.method manual ipv4.address 192.168.10.9/24 ipv4.gateway 192.168.10.1 ipv4.dns 8.8.8.8  
 systemctl restart network  
 nmcli connection show enp0s3  
+
+* python study:  
+https://docs.python.org/2.7/
    
